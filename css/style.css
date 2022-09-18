@@ -1,0 +1,84 @@
+/*-------------------------------------
+    Template Name: Flodify
+    Template URI: https://mejba.me
+    Description: Flodify - Flodify is a responsive landing page website template . It based on  HTML5 and CSS3.
+    Author: Mejba Ahmed
+    Author URI: https://mejba.me
+    Version: 1.0
+    Tags: Modern, Creative, HTML5 , CSS3 , Flex , Landing page
+---------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+  background: #2c3333;
+}
+
+.container {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.notify-alert-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.succss-alert-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #272727;
+  border-radius: 8px;
+}
+
+.success-alert-icon {
+  position: relative;
+  background: #04aa6d;
+  padding: 15px 30px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.success-alert-text {
+  padding: 15px;
+}
+
+.succss-alert-close-btn {
+  position: relative;
+  padding: 15px 30px;
+}
+
+.succss-alert-close-btn i,
+.success-alert-icon i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.succss-alert-close-btn i {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.succss-alert-close-btn i:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
